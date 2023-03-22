@@ -1,0 +1,26 @@
+{
+   "author": "Aaron Cheng",
+   "action": {
+      "default_icon": {
+         "16": "images/icon-16.png",
+         "32": "images/icon-32.png",
+         "48": "images/icon-48.png",
+         "128": "images/icon-128.png"
+      },
+      "default_title": "Close other tabs"
+   },
+   "background": {
+      "service_worker": "closeOtherTabs.js"
+   },
+   "description": "Adds a button to close all tabs except for the current tab.",
+   "icons": {
+      "16": "images/icon-16.png",
+      "32": "images/icon-32.png",
+      "48": "images/icon-48.png",
+      "128": "images/icon-128.png"
+   },
+   "manifest_version": 3,
+   "name": "Close Other Tabs",
+   "short_name": "Close Other",
+   "version": "1.0"
+}
